@@ -1,0 +1,199 @@
+:root {
+	--color-text: #000;
+    --color-background: #fff;
+    /* 链接颜色 */
+	--color-link: rgba(33, 100, 156, 1);
+	--color-clear: #f3f3f3;
+	--color-shadow: transparent;
+    --color-error: #933;
+    /* 背景透明度 */
+	--color-body-back: rgba(33, 100, 156, 0.3); 
+	--color-header-text: #333;
+	--color-header-background: #fff;
+	--color-spinner-front: #333;
+	--color-spinner-back: rgba(255,255,255,0.933);
+	--color-progress-front: #333;
+	--color-progress-back: #eee;
+	--color-goingto-shadow: #333;
+	--color-menus-hover: #eee;
+	--color-menus-active-text: #fff;
+	--color-menus-active-background: #333;
+	--color-settings-switch-on: #333;
+	--color-settings-switch-off: #ddd;
+	--color-audioplayer-lrc: #555;
+	--color-audioplayer-lrc-current: #111;
+	--color-audioplayer-lrc-background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.8));
+	--color-audioplayer-lrc-mobile-back: rgba(255,255,255,0.933);
+	--color-post-license-back: rgba(255,51,0,0.067);
+	--color-post-ending: #ddd;
+	--color-toc-link: #333;
+	--color-toc-active-text: #fff;
+	--color-toc-active-background: #333;
+	--color-search-highlight: #0c9;
+	--color-extension-front: #333;
+	--color-extension-back: #fff;
+	--color-extension-hover: #eee;
+	--color-records-progress-back: #9c3;
+	--color-records-progress-back-l: #fc3;
+	--color-records-progress-front: #333;
+	--color-gallery: #ddd;
+	--color-gallery-hover: #ccc;
+	--color-recentposts-more-front: #09f;
+	--color-recentposts-more-back: #fff;
+	--color-codelib-text: #09f;
+	--color-translater-highlight: rgba(51,51,51,0.6);
+	--color-notification-text: #333;
+	--color-iconlib-iframe-back: #fff;
+}
+
+:root.gray {
+	--color-text: #000;
+	--color-background: #fff;
+	--color-link: rgba(33, 100, 156, 1);
+	--color-clear: #f1f1f1;
+	--color-shadow: rgba(51,51,51,0.4);
+	--color-error: #933;
+	--color-body-back: rgba(33, 100, 156, 0.3);
+	--color-header-text: #333;
+	--color-header-background: #fff;
+	--color-spinner-front: #333;
+	--color-spinner-back: rgba(255,255,255,0.933);
+	--color-progress-front: #333;
+	--color-progress-back: #eee;
+	--color-goingto-shadow: #333;
+	--color-menus-hover: #eee;
+	--color-menus-active-text: #fff;
+	--color-menus-active-background: #333;
+	--color-settings-switch-on: #333;
+	--color-settings-switch-off: #ddd;
+	--color-audioplayer-lrc: #555;
+	--color-audioplayer-lrc-current: #111;
+	--color-audioplayer-lrc-background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.8));
+	--color-audioplayer-lrc-mobile-back: rgba(255,255,255,0.933);
+	--color-post-license-back: rgba(255,51,0,0.067);
+	--color-post-ending: #ddd;
+	--color-toc-link: #333;
+	--color-toc-active-text: #fff;
+	--color-toc-active-background: #333;
+	--color-search-highlight: #0c9;
+	--color-extension-front: #333;
+	--color-extension-back: #fff;
+	--color-extension-hover: #eee;
+	--color-records-progress-back: #9c3;
+	--color-records-progress-back-l: #fc3;
+	--color-records-progress-front: #333;
+	--color-gallery: #ddd;
+	--color-gallery-hover: #ccc;
+	--color-recentposts-more-front: #09f;
+	--color-recentposts-more-back: #fff;
+	--color-codelib-text: #09f;
+	--color-iconlib-iframe-back: #fff;
+}
+
+:root.colorful {
+	--color-text: #000;
+	--color-background: rgba(255,255,255,0.867);
+	--color-link: rgba(33, 100, 156, 1);
+	--color-clear: #fff;
+	--color-shadow: transparent;
+    --color-error: #a52a2a;
+    /* 彩色背景下的图片 */
+	--color-body-back: url("https://cdn.jsdelivr.net/gh/wztlink1013/CDN-Volantis@1.2/background_picture/MIKASA.jpg");
+	--color-header-text: #000;
+	--color-header-background: #fff;
+	--color-spinner-front: #000;
+	--color-spinner-back: rgba(255,255,255,0.933);
+	--color-progress-front: #f30;
+	--color-progress-back: rgba(255,255,255,0.867);
+	--color-goingto-shadow: #000;
+	--color-menus-hover: rgba(255,255,255,0.6);
+	--color-menus-active-text: #fff;
+	--color-menus-active-background: #09f;
+	--color-settings-switch-on: #333;
+	--color-settings-switch-off: #fff;
+	--color-audioplayer-lrc: #333;
+	--color-audioplayer-lrc-current: #000;
+	--color-audioplayer-lrc-background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.8));
+	--color-audioplayer-lrc-mobile-back: rgba(255,255,255,0.933);
+	--color-post-license-back: rgba(255,51,0,0.067);
+	--color-post-ending: #099;
+	--color-toc-link: #000;
+	--color-toc-active-text: #fff;
+	--color-toc-active-background: #396;
+	--color-search-highlight: #0c9;
+	--color-records-progress-back: #9c3;
+	--color-records-progress-back-l: #fc3;
+	--color-records-progress-front: #000;
+	--color-gallery: rgba(255,0,153,0.4);
+	--color-gallery-hover: #c06;
+	--color-recentposts-more-front: #09f;
+	--color-recentposts-more-back: #fff;
+	--color-codelib-text: #09f;
+	--color-iconlib-iframe-back: transparent;
+}
+
+:root.night {
+	--color-text: #ccc;
+	--color-background: rgba(0,0,0,0.8);
+	--color-link: rgba(33, 100, 156, 1);
+	--color-clear: #333;
+	--color-shadow: #333;
+	--color-error: #f33;
+	--color-body-back: #000;
+	--color-header-text: #ccc;
+	--color-header-background: #222;
+	--color-spinner-front: #ccc;
+	--color-spinner-back: rgba(0,0,0,0.933);
+	--color-progress-front: #f30;
+	--color-progress-back: #ccc;
+	--color-goingto-shadow: #ccc;
+	--color-menus-hover: #333;
+	--color-menus-active-text: #000;
+	--color-menus-active-background: #ccc;
+	--color-settings-switch-on: #ccc;
+	--color-settings-switch-off: #444;
+	--color-audioplayer-lrc: #aaa;
+	--color-audioplayer-lrc-current: #eee;
+	--color-audioplayer-lrc-background: linear-gradient(180deg, rgba(255,255,255,0) 0, rgba(255,255,255,0.4));
+	--color-audioplayer-lrc-mobile-back: rgba(0,0,0,0.933);
+	--color-post-license-back: rgba(255,51,0,0.067);
+	--color-post-ending: #444;
+	--color-toc-link: #ccc;
+	--color-toc-active-text: #000;
+	--color-toc-active-background: #ccc;
+	--color-search-highlight: #0c9;
+	--color-extension-front: #eee;
+	--color-extension-back: #000;
+	--color-extension-hover: #333;
+	--color-records-progress-back: #9c3;
+	--color-records-progress-back-l: #fc3;
+	--color-records-progress-front: #000;
+	--color-gallery: #111;
+	--color-gallery-hover: #222;
+	--color-recentposts-more-front: #06c;
+	--color-recentposts-more-back: #fff;
+	--color-codelib-text: #3cf;
+	--color-iconlib-iframe-back: #ccc;
+}
+
+.color_1 {
+	color: #c03;
+}
+
+.color_2 {
+	color: #0cf;
+}
+
+.color_3 {
+	color: #0c9;
+}
+
+.color_4 {
+	color: #66f;
+}
+
+.color_5 {
+	color: #966;
+}
+
+
